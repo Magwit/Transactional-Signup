@@ -2,13 +2,48 @@
   <mj-head>
     <mj-title></mj-title>
     <mj-attributes>
-      
+
     </mj-attributes>
+    <mj-preview>Verify your email for ByteBox</mj-preview>
   </mj-head>
-  <mj-body>
+  <mj-body background-color="#ffffff">
     <mj-section>
       <mj-column>
-        
+        <mj-image padding-bottom="40px" width="250px" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo3.png" alt="Placeholder logotype" />
+        <mj-divider border-width="1px" border-color="rgb(197, 197, 197)" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image width="250px" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo3.png" alt="Placeholder logotype" />
+        <mj-text>
+          <h1>Close to the finish line!</h1>
+          <p>Hi Magnus Rydberg,</p>
+          <p>To finish setting up your account and begin sharing code repos on ByteBox, confirm that we have got the correct email. </p>
+        </mj-text>
+        <mj-button>
+          Verfiy your Email
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider border-width="1px" border-color="rgb(197, 197, 197)" />
+        <mj-text>
+          Your ByteCompany Account
+        </mj-text>
+        <mj-text>
+          Signing up for ByteBox is neat. Even neater is to have one sigle account across all ByteCompany products. <a href="#">Learn more.</a>
+        </mj-text>
+        <mj-divider border-width="1px" border-color="rgb(197, 197, 197)" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text align="center">
+          This message was sent to you by ByteCompany Cloud
+        </mj-text>
+        <mj-image width="150px" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo3.png" alt="Placeholder logotype" />
       </mj-column>
     </mj-section>
   </mj-body>
