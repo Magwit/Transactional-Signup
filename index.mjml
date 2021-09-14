@@ -2,9 +2,12 @@
   <mj-head>
     <mj-title></mj-title>
     <mj-attributes>
-      <mj-all font-family="Signika Negative" />
+      <mj-all font-family="Signika Negative, Arial, sans-serif"/>
+      <mj-text padding="0px" font-size="16px" line-height="24px" />
       <mj-divider padding-top="0px" border-width="1px" border-color="rgb(197, 197, 197)"  />
-      
+      <mj-button border-radius="8px" font-size="16px"/>
+      <mj-image padding="0px" />
+      <mj-section padding="0px"/>
     </mj-attributes>
     <mj-preview>Verify your email for ByteBox</mj-preview>
     <mj-font name="Signika Negative" href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap" />
@@ -21,15 +24,15 @@
     <!-- Header image section -->
     <mj-section>
       <mj-column>
-        <mj-image padding-bottom="15px" width="250px" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo3.png" alt="Placeholder logotype" />
+        <mj-image padding-top="35px" padding-right="25px"  padding-bottom="15px" padding-left="25px" width="250px" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo3.png" alt="ByteCompany logotype" />
       </mj-column>
     </mj-section>
     
   <!-- Verify mail section -->    
     <mj-section >
       <mj-column >
-        <mj-text padding-top="0px"  >
-          <h1 >Close to the finish line!</h1>
+        <mj-text >
+          <h1>Close to the finish line!</h1>
           <p>Hi Magnus Rydberg,</p>
           <p>To finish setting up your account and begin sharing code repos on ByteBox, confirm that we have got the correct email. </p>
         </mj-text>
@@ -43,10 +46,10 @@
     <mj-section>
       <mj-column>
         <mj-divider />
-        <mj-text padding-top="20px" font-weight="600">
+        <mj-text font-weight="600">
           Your ByteCompany Account
         </mj-text>
-        <mj-text padding-bottom="20px">
+        <mj-text >
           Signing up for ByteBox is neat. Even neater is to have one sigle account across all ByteCompany products. <a href="#">Learn more.</a>
         </mj-text>
         <mj-divider />
@@ -58,7 +61,7 @@
         <mj-text align="center">
           This message was sent to you by ByteCompany Cloud
         </mj-text>
-        <mj-image width="150px" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo3.png" alt="Placeholder logotype" />
+        <mj-image width="110px" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo3.png" alt="ByteCompany logotype" />
       </mj-column>
     </mj-section>
   </mj-body>
