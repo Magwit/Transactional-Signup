@@ -2,42 +2,57 @@
   <mj-head>
     <mj-title></mj-title>
     <mj-attributes>
-
+      <mj-all font-family="Signika Negative" />
+      <mj-divider padding-top="0px" border-width="1px" border-color="rgb(197, 197, 197)"  />
+      
     </mj-attributes>
     <mj-preview>Verify your email for ByteBox</mj-preview>
+    <mj-font name="Signika Negative" href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap" />
+    <mj-all font-family="Signika Negative" />
+    <mj-style inline="inline">
+      a {
+        color: rgba(0, 0, 255, 0.97) !important;
+        text-decoration: underline;
+      }
+    </mj-style>
   </mj-head>
   <mj-body background-color="#ffffff">
+
+    <!-- Header image section -->
     <mj-section>
       <mj-column>
-        <mj-image padding-bottom="40px" width="250px" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo3.png" alt="Placeholder logotype" />
-        <mj-divider border-width="1px" border-color="rgb(197, 197, 197)" />
+        <mj-image padding-bottom="15px" width="250px" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo3.png" alt="Placeholder logotype" />
       </mj-column>
     </mj-section>
-    <mj-section>
-      <mj-column>
-        <mj-image width="250px" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo3.png" alt="Placeholder logotype" />
-        <mj-text>
-          <h1>Close to the finish line!</h1>
+    
+  <!-- Verify mail section -->    
+    <mj-section >
+      <mj-column >
+        <mj-text padding-top="0px"  >
+          <h1 >Close to the finish line!</h1>
           <p>Hi Magnus Rydberg,</p>
           <p>To finish setting up your account and begin sharing code repos on ByteBox, confirm that we have got the correct email. </p>
         </mj-text>
-        <mj-button>
+        <mj-button padding-top="15px"  padding-bottom="0px">
           Verfiy your Email
         </mj-button>
       </mj-column>
     </mj-section>
+
+    <!-- Account section -->
     <mj-section>
       <mj-column>
-        <mj-divider border-width="1px" border-color="rgb(197, 197, 197)" />
-        <mj-text>
+        <mj-divider />
+        <mj-text padding-top="20px" font-weight="600">
           Your ByteCompany Account
         </mj-text>
-        <mj-text>
+        <mj-text padding-bottom="20px">
           Signing up for ByteBox is neat. Even neater is to have one sigle account across all ByteCompany products. <a href="#">Learn more.</a>
         </mj-text>
-        <mj-divider border-width="1px" border-color="rgb(197, 197, 197)" />
+        <mj-divider />
       </mj-column>
     </mj-section>
+    <!-- Footer -->
     <mj-section>
       <mj-column>
         <mj-text align="center">
