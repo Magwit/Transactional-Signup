@@ -2,7 +2,6 @@
   <mj-head>
     <mj-title></mj-title>
     <mj-attributes>
-      <mj-all font-family="Signika Negative, Arial, sans-serif"/>
       <mj-text padding-top="0px" padding-bottom="0px" font-size="16px" line-height="24px" />
       <mj-divider padding-top="0px" padding-bottom="0px" border-width="1px" border-color="rgb(197, 197, 197)"  />
       <mj-button border-radius="8px" font-size="16px"/>
@@ -11,7 +10,7 @@
     </mj-attributes>
     <mj-preview>Verify your email for ByteBox</mj-preview>
     <mj-font name="Signika Negative" href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap" />
-    <mj-all font-family="Signika Negative" />
+    <mj-all font-family="Signika Negative, Arial, sans-serif" />
     <mj-style inline="inline">
       .anchor {
         color: rgba(0, 0, 255, 0.97) !important;
