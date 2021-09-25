@@ -27,19 +27,21 @@
     <!-- Header image section -->
     <mj-section>
       <mj-column>
-        <mj-image padding-top="35px" padding-right="40px" padding-bottom="15px" padding-left="40px" width="250px" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo3.png" alt="ByteCompany logotype" />
+        <!-- <mj-image padding-top="35px" padding-right="40px" padding-bottom="15px" padding-left="40px" width="250px" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo3.png" alt="ByteCompany logotype" /> -->
+        <mj-image padding-top="35px" padding-right="40px" padding-bottom="0px" padding-left="40px" width="250px" src="https://res.cloudinary.com/distbyxa/image/upload/v1632590735/bytebox_logo_transparent_h9dd9r.png" alt="ByteCompany logotype" />
+      
       </mj-column>
     </mj-section>
 
     <!-- Verify mail section -->
     <mj-section>
       <mj-column>
-        <mj-text padding-top="15px" padding-bottom="5px">
+        <mj-text padding-top="5px" padding-bottom="5px">
           <h1>Close to the finish line!</h1>
           <p>Hi Magnus Rydberg,</p>
           <p>To finish setting up your account and begin sharing code repos on ByteBox, confirm that we have got the correct email. </p>
         </mj-text>
-        <mj-button padding-top="10px" padding-bottom="30px" href="#">
+        <mj-button padding-top="10px" padding-bottom="30px" href="#" background-color="#1c5e7c">
           Verfiy your Email
         </mj-button>
       </mj-column>
@@ -64,7 +66,7 @@
         <mj-text align="center" padding-top="25px" padding-bottom="15px" color="#555555">
           This message was sent to you by ByteCompany Cloud
         </mj-text>
-        <mj-image padding-bottom="30px" width="110px" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo3.png" alt="ByteCompany logotype" />
+        <mj-image padding-bottom="30px" width="110px" src="https://res.cloudinary.com/distbyxa/image/upload/c_scale,e_grayscale,w_110/v1632592432/bytebox/bytecompany_logo_transparent_zs9gnn.png" alt="ByteCompany logotype" />
       </mj-column>
     </mj-section>
   </mj-body>
